@@ -1,0 +1,611 @@
+*
+{
+ box-sizing: border-box;	
+}
+body
+{
+width:100%;	
+margin:0px;
+padding:0px;
+}
+.Nav img
+{
+	transition: transform 0.3s ease;
+}
+.Nav img:hover
+{
+	transform: scale(1.2); /* Increase the scale to create a zoom effect */
+}
+.Ch-3
+{
+ height:40px;
+ margin-right:20px;
+ border-radius: 100%;
+}
+.Ch-4
+{
+ height:40px;
+ margin-right:20px;
+ border-radius: 100%;
+}
+.Ch-5
+{
+ height:40px;
+ margin-right:20px;
+ border-radius: 100%;
+}
+.Ch-6
+{
+ height:40px;
+ margin-right:20px;
+ border-radius: 100%;
+}
+.Ch-2
+{
+ height:40px;
+ margin-right:20px;
+ border-radius: 100%;
+}
+.Ch-1
+{
+ height:40px;
+ margin-right:20px;
+}
+.Nav
+{
+ position:fixed;
+ top:20px;
+ right:20px;
+ z-index: 99999;
+}
+.back-to-top {
+	position: fixed;
+	bottom: 40px;
+	right: 10px;
+	height:40px;
+	z-index: 9999;
+	border: 2px solid transparent;
+	display: inline;
+	transition: filter 0.4s ease-in;
+  }
+  .back-to-top:hover {
+	  filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));  }
+.S1
+{
+background-image:url(https://upload.wikimedia.org/wikipedia/commons/b/b2/Lionel_Royer_-_Bataille_d%27Auvours%2C_le_10_janvier_1871_%281874%29.jpg);
+background-attachment: fixed;
+background-position: center; 
+background-repeat: no-repeat;
+background-size: cover;
+}
+.About h1
+{
+ text-align: center;	
+ font-size: 98px;
+ font-family: 'Playfair Display', serif;
+ margin:0px;
+ color: RGBA(184, 134, 11, 1);
+}
+/* .About h2
+{
+	text-align: center;	
+	font-size: 58px;
+	font-family: 'MedievalSharp', cursive;
+	margin: 54px;
+} */
+.About p
+{
+	text-align: center;	
+	font-size: 28px;
+    font-family: 'Merriweather', serif;
+	margin:20px 120px 8px 120px;
+	color: rgba(175, 175, 155, 1);
+}
+.S1
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+.timeline-box img
+{
+	width:100%;
+	height:100%;
+	transition: all 0.3s ease-out;
+}
+.timeline {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 330px;
+	top: 20px;
+  }
+  .timeline-box:hover img {
+	opacity: 0;
+  }
+  #Box1:hover
+  {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Kingdom_of_Prussia_1870.svg/250px-Kingdom_of_Prussia_1870.svg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 1;
+  }
+  #Box2:hover
+  {
+	background-image: url(https://i2.wp.com/about-history.com/wp-content/uploads/2018/08/German-Unification-The-Danish-Prussian-War-of-1864.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 1;
+  }
+  #Box3:hover
+  {
+	background-image: url(https://i0.wp.com/the-past.com/wp-content/uploads/2020/11/Faidherbe-at-Battle-of-Bapaume.jpg?fit=700479&ssl=1);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 1;
+  }
+  #Box4:hover
+  {
+	background-image: url(https://www.german-times.com/wp-content/uploads/2020/09/okt2020__0014_Ballonverfolgung-Husaren-MHM_Grimberg-504x328.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 1;
+  }
+  #Box5:hover
+  {
+	background-image: url(https://www.historytoday.com/sites/default/files/franzf.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 1;
+  }
+  #Box6:hover
+  {
+	background-image: url(https://images.theconversation.com/files/128834/original/image-20160630-30652-1bxnd44.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 1;
+  }
+  #Box1::after
+  {
+	content: 'Bismarck Comes to Power';
+	color:RGBA(184, 134, 11, 1);
+  }
+  #Box2::after
+  {
+	content: 'Prussia vs Denmark';
+	color:RGBA(184, 134, 11, 1);
+  }
+  #Box3::after
+  {
+	content: 'Prussia vs Austria';
+	color:RGBA(184, 134, 11, 1);
+  }
+  #Box4::after
+  {
+	content: 'Prussia vs France Unification	';
+	color:RGBA(184, 134, 11, 1);
+  }
+  #Box5::after
+  {
+	content: 'Prelude to World War I';
+	color:RGBA(184, 134, 11, 1);
+  }
+  #Box6::after
+  {
+	content: 'World War I';
+	color:RGBA(184, 134, 11, 1);
+  }
+  .timeline-box {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: #f0f0f0;
+	margin-right: 90px;
+	transition: all 0.3s ease-in;
+	z-index: 99;
+  }
+
+  .timeline-box:hover {
+	width: 150px;
+	height: 150px;
+  }
+
+  .timeline-box.expanded {
+	flex-shrink: 0;
+	margin-right: 0;
+  }
+
+  .timeline-box:nth-of-type(odd) {
+	transform: translateY(-50%);
+  }
+
+  .timeline-box:nth-of-type(even) {
+	transform: translateY(50%);
+  }
+  .arrow-img
+  {
+	position: absolute;
+	top:120px;
+	left:203px;
+  }
+  .arrow-img2
+  {
+	position: absolute;
+	top:100px;
+	left:385px;
+  }
+  .arrow-img4
+  {
+	position: absolute;
+	top:100px;
+	left:775px;
+  }
+  .arrow-img3
+  {
+	position: absolute;
+	top:100px;
+	left:575px;
+  }
+  .arrow-img5
+  {
+	position: absolute;
+	top:100px;
+	left:955px;
+  }
+  .S2
+  {
+	height:100vh;
+	background-image:url(https://upload.wikimedia.org/wikipedia/commons/5/58/1866_Camphausen_Crossing_to_Alsen_anagoria.JPG);
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .S2
+  {
+	position:relative;
+  }
+  .PrussiaVsDenmark-content
+   {
+   position: absolute;
+   top: 90px;
+   left: 0;
+   margin-left: 20px;
+  }
+  .prussia-denmark-heading {
+	font-family:  sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: #333333; /* Adjust color as per your design */
+	text-align: left;
+	margin-bottom: 20px; /* Adjust spacing as needed */
+	margin-top:10px;
+  }
+  
+  .prelude-heading {
+	font-family:  sans-serif;
+	font-size: 20px;
+	color: #666666; /* Adjust color as per your design */
+	text-align: left;
+	margin-top: 10px;
+  }
+  
+  .PrussiaVsDenmark-text p{
+	/* Your remaining styles for the text section */
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  }
+  a.cta-button {
+	margin-top: 12px;
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #333333;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+  }
+  
+   a.cta-button:hover {
+	background-color: #555555;
+  }
+  
+  .S3
+  {
+	height:100vh;
+	background-image:url(https://upload.wikimedia.org/wikipedia/commons/9/9a/Schlacht-bei-koeniggraetz-von-georg-bleibtreu.jpg);
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .prussia-austria-section {
+	
+	/* padding-top: 100px; */
+	text-align: center;
+	color: #333333; /* Dark color for better legibility on a light background */  }
+  
+  .prussia-austria-heading {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: 60px;
+	font-weight: bold;
+	margin-top:0px;
+	margin-bottom: 35px;
+	text-align: center;
+	padding-top: 50px;
+  }
+  
+  .prussia-austria-description{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 20px 155px 0px 155px;
+}
+  /* .prussia-austria-description,
+  .prussia-austria-details,
+  .prussia-austria-impact {
+	font-family:  sans-serif;
+  font-size: 28px;
+  line-height: 1.5;
+  max-width: 800px;
+  margin-top: 20px;
+  text-align: center;
+  } */
+
+  
+  /* @media screen and (max-width: 768px) {
+	.prussia-austria-heading {
+	  font-size: 36px;
+	}
+	
+	.prussia-austria-description,
+	.prussia-austria-details,
+	.prussia-austria-impact {
+	  font-size: 18px;
+	}
+  }
+   */
+.S4
+{
+	height:100vh;
+    background-image: url(./img/AlphonseNeuvilleFriedhofSaint-PrivatL1100806_\(2\).jpg);
+	background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.prussia-france-section {
+	/* background-color: #F5F5F5; Choose a suitable background color */
+	padding: 25px 0;
+  }
+  
+  .prussia-france-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .prussia-france-content {
+	flex: 1;
+	text-align: justify;
+	margin-right: 40px;
+  }
+  
+  .prussia-france-heading {
+	font-family:  sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #000;
+	text-align: center;
+  }
+  
+  .prussia-france-description,
+  .prussia-france-details,
+  .prussia-france-impact {
+	font-family:  sans-serif;
+	font-size: 20px;
+	line-height: 1.2;
+	margin-bottom: 18px;
+	margin-top: 0px;
+	color: #c0c0c0;
+	text-align: center;
+    margin-left: 10%;
+    margin-right:10%;
+  }
+
+  
+  /* @media screen and (max-width: 768px) {
+	.prussia-france-container {
+	  flex-direction: column;
+	  align-items: stretch;
+	}
+	
+	.prussia-france-content {
+	  margin-right: 0;
+	  margin-bottom: 40px;
+	}
+	
+	.prussia-france-heading {
+	  font-size: 36px;
+	}
+	
+	.prussia-france-description,
+	.prussia-france-details,
+	.prussia-france-impact {
+	  font-size: 18px;
+	}
+  } */
+  .S5
+  {
+	height:100vh;
+	background-image: url('./img/1230\ Tsar_Nicholas_II_&_King_George_V-min2.jpg');
+	background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+  }
+  #J
+  {
+  margin-left: 650px;
+  }
+  .prelude-ww1-section 
+  {
+   display: flex;
+   justify-content: center;
+   height: 100vh; 
+  }
+  
+  .prelude-ww1-container {
+	width: 600px;
+    padding-top: 50px;
+	margin-left: 25px;
+	}
+  .prelude-ww1-impact
+  {
+	margin-bottom: 2px;
+  }
+  .prelude-ww1-heading {
+	font-family:  sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	color: #DADADA;
+	display: flex;
+    justify-content: center;
+	/* margin-bottom: 40px; */
+  }
+  
+  .prelude-ww1-content {
+	margin-top: 10px;
+  }
+  
+  .prelude-ww1-description,
+  .prelude-ww1-details,
+  .prelude-ww1-impact {
+	font-family:  sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #C0C0C0;  }
+	.prelude-ww1-impact 
+	{
+		margin-bottom:15px;
+	}
+  
+  /* @media screen and (max-width: 768px) {
+	.prelude-ww1-container {
+	  flex-direction: column;
+	  align-items: stretch;
+	}
+	
+	.prelude-ww1-heading {
+	  font-size: 36px;
+	}
+	
+	.prelude-ww1-image {
+	  margin-right: 0;
+	  margin-bottom: 20px;
+	}
+	
+	.prelude-ww1-description,
+	.prelude-ww1-details,
+	.prelude-ww1-impact {
+	  font-size: 18px;
+	}
+  }
+   */
+   .S6
+   {
+	 height:100vh;
+	 background-image:url(https://images.unsplash.com/photo-1563804951831-49844db19644?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1995&q=80);
+	 background-attachment: fixed;
+	 background-position: center; 
+	 background-repeat: no-repeat;
+	 background-size: cover;
+   }
+   .world-war1-section {
+	padding: 80px 0;
+  }
+  
+  .world-war1-container {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+  }
+  
+  .world-war1-heading h2 {
+	font-size: 36px;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 30px;
+  }
+  
+  .world-war1-content {
+	font-size: 18px;
+	color: #cccccc;
+	line-height: 1.6;
+  }
+  .world-war1-content a
+  {
+  margin-left:24px;
+
+  }
+  .S7
+  {  
+	color: #0F4C75; /* Strong bluish font color */; /* Strong font color (dark gray) */
+	position: relative;
+	height:100vh;
+    background-image: url(./img/Third-Reich_Bismarck-Unification_QBS_Thumbnail.jpg);
+	background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.BismarckComesToPower-content {
+  position: absolute;
+  bottom: 130px;
+  left: 20px;
+}
+
+.BismarckComesToPower-text {
+  text-align: left;
+}
+
+.bismarck-heading {
+  text-align: left;
+}
+
+.prelude-heading {
+  text-align: left;
+}
+
+.BismarckComesToPower-heading .bismarck-heading {
+	font-size: 45px;
+	font-family: "Arial", sans-serif;
+	color: #f8f8f8;
+	margin-bottom: 25px;
+  }
+  .BismarckComesToPower-heading .prelude-heading {
+	font-size: 28px;
+	font-family: "Arial", sans-serif;
+	color: #EEE9E9;
+  }
+  .BismarckComesToPower-text p {
+	font-size: 20px;
+	font-family: "Arial", sans-serif;
+	font-weight:bold;
+	color: #f2e8da;
+
+
+	margin-top: 8px ; /* Adjust the margin-bottom value to change the gap */
+    margin-bottom: 2px; 
+}
+body {
+	cursor: url('icon/arrow4.png'),auto;
+	
+  }
