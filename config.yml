@@ -1,0 +1,20 @@
+# This is a config.yml file for arnamchaurasiya.github.io
+theme: jekyll-theme-cayman # This is the theme for the website
+title: war website # This is the title for the website
+description: Historical war website # This is the description for the website
+pages: # This is a list of pages for the website
+  - page: index.html # This is the home page
+    title: The Franco-Prussian War # This is the title for the home page
+    content: The Franco-Prussian War, a captivating clash between France and Prussia, defined the 19th century. Fueled by the Salic Law, it reshaped Europe under Wilhelm II's victorious reign. From profound sorrow to elusive hope, this tale of conflict entices readers to unravel its captivating depths.
+    title: Document # This is the title for the 
+    content: Before 1848 there was no concept of Germany. This portion highlights how Otto Von Bismarck, a man from relativly humble origins came to power in Prussia and changed the map of Europe forever with his policy of
+"Blood and Iron"  # This is the content for the 
+  - page: index.html # This is the 
+    title: Prussia vs. Denmark 
+    content: Prussia and Denmark, neighboring European powers, were entangled in significant historical rivalries during the 19th century. # This is the content for the blog page
+  - page: index.html 
+    title: prussia vs austria 
+    content: prussia and Austria both became powerful states in a big group of German lands called the Holy Roman Empire. This group lasted for a long time, from the 900s to the 1800s. 
+  - page: index.html 
+    title: prussia vs france 
+    content: This was a European-wide war that involved Prussia, France, Austria, Britain, Spain, and other powers. Prussia and France were allies against Austria and Britain, who wanted to preserve the balance of power in Europe. 
