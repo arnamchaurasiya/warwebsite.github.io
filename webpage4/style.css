@@ -1,0 +1,257 @@
+
+*
+{
+ box-sizing: border-box;	
+}
+ body
+ {
+  width: 100%;
+  margin:0;	
+  overflow-x: hidden;
+ }
+ .Nav img
+ {
+   transition: transform 0.3s ease;
+ }
+ .Nav img:hover
+ {
+   transform: scale(1.2); /* Increase the scale to create a zoom effect */
+ }
+ .Ch-3
+ {
+  height:40px;
+  margin-right:20px;
+  border-radius: 100%;
+ }
+ .Ch-4
+ {
+  height:40px;
+  margin-right:20px;
+  border-radius: 100%;
+ }
+ .Ch-5
+ {
+  height:40px;
+  margin-right:20px;
+  border-radius: 100%;
+ }
+ .Ch-6
+ {
+  height:40px;
+  margin-right:20px;
+  border-radius: 100%;
+ }
+ .Ch-2
+ {
+  height:40px;
+  margin-right:20px;
+  border-radius: 100%;
+ }
+ .Ch-1
+ {
+  height:40px;
+  margin-right:20px;
+ }
+ .Nav
+ {
+  position:fixed;
+  top:20px;
+  right:20px;
+  z-index: 99999;
+ }
+ 
+  
+ #background-video {
+  margin:0;	
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  background-attachment: fixed;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  
+
+  }
+  
+
+
+  #second-background-video {
+    margin:0;	
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    background-attachment: fixed;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    bottom: -100%;
+    z-index: -1;
+   }
+   #third-background-video {
+    margin:0;	
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    background-attachment: fixed;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 200%;
+    bottom: -200%;
+    z-index: -1;
+    background-color: #ffffff;
+   }
+   #fourth-background-video {
+    margin:0;	
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    background-attachment: fixed;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 300%;
+    bottom: -300%;
+    z-index: -1;
+   }
+  
+  /* Add some content at the bottom of the video/page */
+  .heading1{
+    position: static;
+    color: black;
+  
+      padding-top: 150px;
+      padding-right: 30px;
+      padding-bottom: 0px;
+      padding-left:900px;
+    
+    
+    width: 100%;
+   
+  }
+
+
+ .paragraph1{
+  position: static;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+      padding-top: 0px;
+      padding-right: 30px;
+      padding-bottom:0px;
+      padding-left: 900px;
+    
+    
+    width: 100%;
+
+ }
+ .image1 {
+  position: absolute;
+  top: 55%;
+  left: -14%;
+  transform: translateY(-50%);
+  padding-top: 1px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  z-index: 1;
+}
+.image1 img {
+  /* Set the width and height of the image */
+  width: 1300px !important;
+  height: auto !important;
+}
+.image2 {
+  position: absolute;
+  top: calc(50% + 100%);
+  left: 45%;
+  transform: translateY(-50%);
+}
+.image2 img {
+  /* Set the width and height of the image */
+  width: 900px !important;
+  height: auto !important;
+}
+.image3 {
+  position: absolute;
+  top: calc(50% + 200%);
+  left: 5%;
+  transform: translateY(-50%);
+}
+.image3 img {
+  /* Set the width and height of the image */
+  width: 900px !important;
+  height: auto !important;
+}
+.image4 {
+  position: absolute;
+  top: calc(50% + 300%);
+  left: 60%;
+  transform: translateY(-50%);
+}
+
+
+
+  .heading2 {
+    position: absolute;
+    top: calc(30% + 100%); /* Add 100% to position this element on the second page */
+    left: 16%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    z-index: 1;
+  }
+  
+  .paragraph2 {
+    position: absolute;
+    top: calc(50% + 100%); /* Add 100% to position this element on the second page */
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    z-index: 1;
+    width: 40%;
+  }
+  
+
+.heading3 {
+  position: absolute;
+  top: calc(30% + 200%); 
+  left: 66%; 
+  transform: translate(-50%, -50%);
+  color: black; 
+  padding-bottom: 90px;
+}
+
+.paragraph3 {
+  position: absolute;
+  top: calc(50% + 200%); 
+  left: 80%; 
+  transform: translate(-50%, -50%); 
+  color: black; 
+  width: 40%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+
+}
+.heading4 {
+  position: absolute;
+  top: calc(30% + 300%); /* Add 100% to position this element on the second page */
+  left: 19%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  z-index: 1;
+}
+
+.paragraph4 {
+  position: absolute;
+  top: calc(50% + 300%); /* Add 100% to position this element on the second page */
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  z-index: 1;
+  width: 40%;
+}
