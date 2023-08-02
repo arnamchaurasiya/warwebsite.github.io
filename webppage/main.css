@@ -1,0 +1,258 @@
+body{
+    position: relative;
+    font-family: sans-serif;
+    margin:0;
+    padding: 0;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: none;
+    background-image: url("img/background9.png") ; 
+    background-size: cover;
+    
+
+}
+.Nav img
+{
+	transition: transform 0.3s ease;
+}
+.Nav img:hover
+{
+	transform: scale(1.2); /* Increase the scale to create a zoom effect */
+}
+.Ch-3
+{
+ height:40px;
+ margin-right:20px;
+ border-radius: 100%;
+}
+.Ch-4
+{
+ height:40px;
+ margin-right:20px;
+ border-radius: 100%;
+}
+.Ch-5
+{
+ height:40px;
+ margin-right:20px;
+ border-radius: 100%;
+}
+.Ch-6
+{
+ height:40px;
+ margin-right:20px;
+ border-radius: 100%;
+}
+.Ch-2
+{
+ height:40px;
+ margin-right:20px;
+ border-radius: 100%;
+}
+.Ch-1
+{
+ height:40px;
+ margin-right:20px;
+}
+.Nav
+{
+ position:fixed;
+ top:20px;
+ right:20px;
+ z-index: 99999;
+}
+
+.container{
+    padding:2rem;
+    padding-bottom: 400px;
+    margin: 0 auto;
+    max-width: 800px;
+    opacity: 1;
+    
+}
+
+.top-section{
+    text-align: center;
+    padding: 4rem 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.timeline{
+    position: relative;
+    min-height: 150px;
+}
+
+.line{
+    position:absolute;
+    z-index: -1;
+    left: calc(50%);
+    width:5px;
+    top: -50px;
+    bottom: -50px;
+    background-color: gold;
+    display: none;
+   
+}
+
+.line::before,
+.line::after{
+    position:absolute;
+    display: block;
+    content:' ';
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: white;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.line:after{
+    bottom:0;
+}
+
+.section{
+    display: flex;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: 600ms ease;
+    position:relative;
+    z-index: 1;
+    margin: 0px 0;
+    
+    padding:1rem;
+    border-radius: 1rem;
+    align-items: center;
+    min-height: 00px;
+
+
+}
+
+.section:nth-child(odd){
+    /* flex-direction: row-reverse; */
+    transform: translateX(-100%);
+}
+
+.section:nth-child(even){
+    flex-direction: row-reverse;
+    transform: translateX(100%);
+}
+
+
+.bead1 img{
+    position:absolute;
+    /* display: block; */
+    height: 3rem;
+    width:3rem;
+    border-radius: 50%;
+    background-color:none;
+    
+    /* background-image: url("img/cannon.png"); */
+    z-index: 9999;
+    
+    background-size: cover;
+    right:50%;
+    left: 50%;
+    top:10%;
+    transform: translateX(-50%);
+}
+.bead2{
+    position:absolute;
+    display: block;
+    height: 3rem;
+    width:3rem;
+    border-radius: 50%;
+    background-color:none;
+    
+    background-image: url("img/monarchy.png");
+    
+    background-size: cover;
+    right:50%;
+    left: 50.5%;
+    top:10%;
+    transform: translateX(-50%);
+}
+.bead3{
+    position:absolute;
+    display: block;
+    height: 3rem;
+    width:3rem;
+    border-radius: 50%;
+    background-color:none;
+    
+    background-image: url("img/revolution.png");
+    
+    background-size: cover;
+    right:50%;
+    left: 50.5%;
+    top:10%;
+    transform: translateX(-50%);
+}
+.bead4{
+    position:absolute;
+    display: block;
+    height: 3rem;
+    width:3rem;
+    border-radius: 50%;
+    background-color:none;
+    
+    background-image: url("img/russia.png");
+    
+    
+    background-size: cover;
+    right:50%;
+    left: 50%;
+    top:10%;
+    transform: translateX(-50%);
+}
+.bead5{
+    position:absolute;
+    display: block;
+    height: 3rem;
+    width:3rem;
+    border-radius: 50%;
+    background-color:none;
+    
+    background-image: url("img/scepter.png");
+    
+    background-size: cover;
+    right:50%;
+    left: 50%;
+    top:10%;
+    transform: translateX(-50%);
+}
+.bead6{
+    position:absolute;
+    display: block;
+    height: 3rem;
+    width:3rem;
+    border-radius: 50%;
+    background-color:none;
+    
+    background-image: url("img/throne.png");
+    
+    background-size: cover;
+    right:50%;
+    left: 50.5%;
+    top:10%;
+    transform: translateX(-50%);
+}
+
+
+.content{
+    width:calc(45%);
+ 
+}
+
+.show-me:nth-child(n){
+    transform: none;
+    opacity: 1;
+}
+
+h1{
+    font-weight: 400px;
+    letter-spacing: 1px;
+}
